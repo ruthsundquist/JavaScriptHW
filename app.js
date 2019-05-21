@@ -1,6 +1,6 @@
 // from data.js
 var dataTable = data;
-//write a clear function - directly after line 6
+
 // YOUR CODE HERE!
 //console.log("app.js is connected")
 data.forEach(function(ufoReport) {
@@ -10,7 +10,7 @@ data.forEach(function(ufoReport) {
     Object.entries(ufoReport).forEach(function([key, value]) {
       console.log(key, value);
       // Append a cell to the row for each value
-      // in the weather report object
+      // in the ufo report object
       //if () //check the keys here!!~!
       var cell = row.append("td");
       cell.text(value);
